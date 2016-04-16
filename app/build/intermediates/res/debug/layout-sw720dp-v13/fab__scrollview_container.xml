@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chatty.myself.chattyv001.uihelper.infomation.view.RootLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include layout="@layout/fab__header_container" />
+
+    <chatty.myself.chattyv001.uihelper.infomation.view.ObservableScrollView
+        android:id="@+id/fab__scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:id="@+id/fab__container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/fab__content_top_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+    </chatty.myself.chattyv001.uihelper.infomation.view.ObservableScrollView>
+
+</chatty.myself.chattyv001.uihelper.infomation.view.RootLayout><!-- From: file:/home/pramoda-nf/Chatty.v0.01/app/src/main/res/layout-sw720dp/fab__scrollview_container.xml -->

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/decition"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".DecisionPageActivity_">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#72696969">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_alignParentLeft="true" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginTop="200dp"
+            android:background="#49a1a1a1"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:text="Pramoda Nadeeshan"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_name"
+                android:background="#00ffffff"
+
+                android:gravity="center"
+                android:orientation="horizontal"
+
+
+                >
+
+
+                <TextView
+                    android:id="@+id/txt_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_name"
+                    android:layout_gravity="center"
+
+                    android:text="22"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Years"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="20dp"
+                    android:text="Sri Lanka"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center">
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:columnCount="8"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:rowCount="6">
+
+                <at.markushi.ui.CircleButton
+                    android:id="@+id/bt_mate"
+                    android:layout_width="98dip"
+                    android:layout_height="98dip"
+                    android:layout_column="3"
+                    android:layout_row="0"
+                    android:src="@drawable/man_icon"
+
+                    app:cb_color="#00ffffff"
+                    app:cb_pressedRingWidth="8dip" />
+
+                <at.markushi.ui.CircleButton
+                    android:id="@+id/bt_gallary"
+                    android:layout_width="98dip"
+                    android:layout_height="98dip"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:src="@drawable/camera_icon"
+                    app:cb_color="#00ffffff"
+                    app:cb_pressedRingWidth="8dip" />
+
+                <at.markushi.ui.CircleButton
+                    android:id="@+id/bt_info"
+                    android:layout_width="98dip"
+                    android:layout_height="98dip"
+                    android:layout_column="3"
+                    android:layout_row="5"
+                    android:src="@drawable/information_icon"
+
+                    app:cb_color="#00ffffff"
+                    app:cb_pressedRingWidth="8dip" />
+
+                <at.markushi.ui.CircleButton
+                    android:id="@+id/bt_chatty"
+                    android:layout_width="98dip"
+                    android:layout_height="98dip"
+                    android:layout_column="3"
+                    android:layout_row="1"
+                    android:src="@drawable/heart_icon"
+
+                    app:cb_color="#00ffffff"
+                    app:cb_pressedRingWidth="8dip" />
+
+                <at.markushi.ui.CircleButton
+                    android:id="@+id/bt_close"
+                    android:layout_width="98dip"
+                    android:layout_height="98dip"
+                    android:layout_column="6"
+                    android:layout_row="1"
+                    android:src="@drawable/close_icon"
+
+                    app:cb_color="#00ffffff"
+                    app:cb_pressedRingWidth="8dip" />
+
+
+            </GridLayout>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</RelativeLayout><!-- From: file:/home/pramoda-nf/Chatty.v0.01/app/src/main/res/layout-sw600dp/activity_decision.xml -->

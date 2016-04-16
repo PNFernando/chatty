@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <chatty.myself.chattyv001.uihelper.gallary.QuiltView
+        android:id="@+id/quilt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dip"
+        app:scrollOrientation="vertical" >
+    </chatty.myself.chattyv001.uihelper.gallary.QuiltView>
+
+</FrameLayout>
+<!-- From: file:/home/pramoda-nf/Chatty.v0.01/app/src/main/res/layout/activity_gallary.xml -->
